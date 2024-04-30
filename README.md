@@ -22,11 +22,11 @@ sudo yum -y install epel-release 本文用编译安装所以这里用不上
 `yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel libffi-devel gdbm-devel db4-devel libpcap-devel xz-devel make`  
 
 ## 下载python3.10  
-
+```
 [rootg@hadoop100 ~]$ wget https://www.python.org/ftp/python/3.10.14/Python-3.10.14.tgz
 [rootg@hadoop100 ~]$ tar -xvzf Python-3.10.14.tgz
 [rootg@hadoop100 ~]$ cd Python-3.10.14/
-
+```
 ## 设置调用openssl3.2  
 
 1）：在Python3.7之后的版本，依赖的openssl，必须要是1.1或者1.0.2之后的版本，或者安装了2.6.4之后的libressl，linux自带的openssl版本过低。  
