@@ -47,7 +47,7 @@ _ssl _ssl.c \
 
 # 安装Python3.10  
 
-`cd Python-3.10.14`  
+`cd ../Python-3.10.14`  
 * 指定编译语言(可选)
 ```
 export LANG=zh_CN.UTF-8
